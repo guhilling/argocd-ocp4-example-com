@@ -10,9 +10,10 @@ secretGenerator:
   - name: argocd-secret
     behavior: merge
     literals:
-### create hash: htpasswd -bnBC 10 "" password | tr -d ':\n'
+### create hash: htpasswd -bnBC 10 "" admin | tr -d ':\n'
       - admin.password=$2y$10$KCUOEvfMR6/zTjiB4yDI0eyU3Oyul9DeDkcpKZZhW3wEHKmw1SZwa
       - admin.passwordMtime=2000-01-01T00:00:00Z
+      - server.secretkey=seeyiiceifeeViChiegh2sae5eigh8Aib0eel4ooc5Oazaeg7i
     type: Opaque
 
 patchesStrategicMerge:

@@ -16,6 +16,3 @@ spec:
         runAsGroup: null
         fsGroup: null
         runAsNonRoot: true
-      serviceAccountName: argocd-redis        
-      containers:
-      - name: redis

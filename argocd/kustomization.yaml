@@ -17,9 +17,10 @@ secretGenerator:
 
 patchesStrategicMerge:
   - argocd-cm.yaml
+  - deployment-argocd-server.yaml
 
 resources:
-#  - ingress-argocd.yaml
+  - route-argocd.yaml
   - namespace-argocd.yaml
 
 generatorOptions:

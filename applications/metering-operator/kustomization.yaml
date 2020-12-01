@@ -5,3 +5,4 @@ resources:
   - namespace-openshift-metering.yaml
   - subscription-openshift-metering.yaml
   - operatorgroup-openshift-metering.yaml
+  - meteringconfig-operator-metering.yaml

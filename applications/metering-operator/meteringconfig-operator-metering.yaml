@@ -3,7 +3,7 @@ kind: MeteringConfig
 metadata:
   name: "operator-metering"
   annotations:
-    argocd.argoproj.io/sync-wave: "5"
+    argocd.argoproj.io/sync-wave: "3"
 spec:
   storage:
     type: "hive"

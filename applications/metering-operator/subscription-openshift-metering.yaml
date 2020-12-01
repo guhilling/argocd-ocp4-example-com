@@ -3,6 +3,8 @@ kind: Subscription
 metadata:
   name: ge-openshift-metering
   namespace: openshift-metering
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
 spec:
   channel: "4.5"
   name: metering-ocp

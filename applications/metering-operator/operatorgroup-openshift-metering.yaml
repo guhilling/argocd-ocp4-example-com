@@ -3,8 +3,6 @@ kind: OperatorGroup
 metadata:
   name: openshift-metering
   namespace: openshift-metering
-  annotations:
-    argocd.argoproj.io/sync-wave: "10"
 spec:
   targetNamespaces:
   - openshift-metering
